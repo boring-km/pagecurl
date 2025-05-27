@@ -143,5 +143,20 @@ data class HowToPageData(
                 "That is the last page, you cannot go further \uD83D\uDE09",
             )
         )
+
+        val twoPageCurlHowToPages = listOf(
+            HowToPageData(
+                "Page Start",
+                "This is a simple demo of the PageCurl. Swipe to the left to turn the page.",
+            ),
+            HowToPageData(
+                "Here is the next page",
+                "This is the next page. Swipe to the left to turn the page.",
+            ),
+            HowToPageData(
+                "Last Page",
+                "That is the last page, you cannot go further \uD83D\uDE09",
+            ),
+        )
     }
 }

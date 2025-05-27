@@ -17,6 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.core.view.WindowCompat
 import eu.wewox.pagecurl.screens.BackPagePageCurlScreen
 import eu.wewox.pagecurl.screens.InteractionConfigInPageCurlScreen
+import eu.wewox.pagecurl.screens.TwoPagePageCurlScreen
 import eu.wewox.pagecurl.screens.PagingPageCurlScreen
 import eu.wewox.pagecurl.screens.SettingsPageCurlScreen
 import eu.wewox.pagecurl.screens.ShadowInPageCurlScreen
@@ -54,6 +55,7 @@ class MainActivity : ComponentActivity() {
                             Example.InteractionConfigInPageCurl -> InteractionConfigInPageCurlScreen()
                             Example.ShadowPageCurl -> ShadowInPageCurlScreen()
                             Example.BackPagePageCurl -> BackPagePageCurlScreen()
+                            Example.TwoPagePageCurl -> TwoPagePageCurlScreen()
                         }
                     }
                 }

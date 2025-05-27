@@ -38,4 +38,8 @@ enum class Example(
         "Back-Page Configuration in Page Curl",
         "Example how to customize the back-page (the back of the page user see during the drag or animation)"
     ),
+    TwoPagePageCurl(
+        "Two-Page Configuration in Page Curl",
+        "Example how to use two-page configuration (showing two pages at once, like in a book or magazine)"
+    ),
 }
